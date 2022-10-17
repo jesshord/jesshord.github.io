@@ -12,13 +12,50 @@
     <body> 
 
         <div class="header">
-            <h1>Jessica Hord's Assignment 2!</h1>
-            <p>
-            <img src="red-panda.jpg" width=400>
+            <h1>A2: Parametric Modelling with Grasshopper</h1>
+            <h2>By Jessica Hord</h2>
+             <p>
+            <img src="images/as2/final1.jpg" width=400>
             </p>
-            <p>
-            Here is all the documentation for assignment 2!
-            </p>
+            <h2>Documentation</h2>
+            <h3>Ideation</h3>
+            <p>Grasshopper was quite a bit of a learning curve. For this assignment, I originally wanted to do a triangle with slots. I worked with Professor Nadya on figuring out the radius, but it was making everything really difficult to try and use the triangle. Below is the math Nadya did on a piece of cardboard in the Mill to try and figure out the radius.</p>
+            <p><img src="images/as2/ideation1.jpg" width=400></p>
+            <p>So, I switched to a polygon, followed the class tutorial, Googled, and asked questions of classmates. Thanks to Vanessa for being my Grasshopper tutor and Petrina for the tip on using “region difference”. I used the same Grasshopper file for both of my pieces to show that the file works. The file indicates where changes can be made and where to bake.</p>
+            <h3>Design</h3>
+            <p>Below is the Grasshopper definition for the larger shape. The radius is set to 38.1 mm, which makes the entire shape 76.2 mm (3 inches). You can adjust the number of sides, the number of slots, the depth of the slots, etc. The spot to put in the thickness of your cardboard is under “slots”. It explains to remove .5 from the thickness for a snug fit.</p>
+            <p><img src="images/as2/design1.jpg" width=800></p>
+            <p>For the second shape, I used a radius of 19.05 mm. I adjusted the “depth of slot” for the new size. There is a note suggesting that you make the slots 1/8 of the entire shape’s size for a snug fit. </p>
+            <p><img src="images/as2/design2.jpg" width=800></p>
+            <p>I baked one of these at each size and exported to Illustrator so that I could cut at the 8. I made sure that 1 mm = 1 mm for the conversion and checked the size in Illustrator.</p>
+            
+            <h3>Implementation</h3> 
+            <p>Once in Illustrator, I copied and pasted the pieces until I had more than 15 of each, changed the color to red, made the stroke .01, and did a test print. The settings were 83% power, 12% speed, and 500 PPI as suggested by the laser cutter interface for cardboard. Just like last time, the thickness is set to 3mm (1 mm less than the cardboard’s thickness) because of the density of cardboard. The test print worked perfectly so I printed out the rest.</p>
+            <p><img src="images/as2/implementation1.jpg" width=400></p>
+            <p><img src="images/as2/implementation2.jpg" width=400></p>
+            <p><img src="images/as2/implementation3.jpg" width=400></p>
+            <p><img src="images/as2/implementation4.jpg" width=400></p>
+            <p><img src="images/as2/implementation5.jpg" width=400></p>
+            
+            <h3>Final Pieces</h3> 
+            <p>After that, I put it all together (with some help from my cat, Murdoch!</p>
+            <p><img src="images/as2/finalcat.jpg" width=400></p>
+            <p><img src="images/as2/final2.jpg" width=400></p>
+            <p><img src="images/as2/final3.jpg" width=400></p>
+            <p><img src="images/as2/final4.jpg" width=400></p>
+            <br>
+            
+            <h3>Thank yous!</h3>
+            <p>Professor Nadya, Vanessa, and Petrina for help with Grasshopper.</p>
+            <p>Bailey for the emotional support and company while laser cutting.</p><br>
+            
+            <h3>Source Files</h3>
+            <a href="files/as2/hordjessicaassign2.3dm">Rhino file</a><br>
+            <a href="files/as2/hordjessicaassign2.gh">Grasshopper definition (set to larger size - 3")</a><br>
+            <a href="files/as2/hordjessicaassign2.ai">Laser cut AI file</a>
+            <br>
+        
+        
         </div>
         
     </body>

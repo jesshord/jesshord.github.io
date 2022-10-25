@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Jessica Hord | HCDE 533 Digital Fabrication</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>A3: Getting started with 3D printing</h1>
+            <h2>By Jessica Hord</h2>
+             <p>
+            <img src="images/as3/final.jpg" width=400>
+            </p>
+            <h2>Documentation</h2>
+            <h3>Assembly</h3>
+            <p>I received my printer in the mail and my cats were curious about the box.</p>
+            <p><img src="images/as3/assembly1.jpg" width="400"></p>
+            <p>I sent Vanessa lot of text messages trying to figure out some of the instructions, but I was able to build it! It fits perfectly on my set of drawers next to my desk. Vanessa also sent me this <a href="https://youtu.be/T-Z3GmM20JM">Youtube video</a>, which helped me troubleshoot some things.</p>
+            <p><img src="images/as3/assembly2.jpg" width="400"></p>
+            <p><img src="images/as3/assembly3.jpg" width="400"></p>
+            <p>I adjusted the extruder's eccentric nuts and checked for loose screws. I noticed that the roller wheels on the center belt were a bit loose, so I tightened the nut for that. I then preheated and placed the filament in. Then was ready for bed levelling. </p>
+            <h3>Bed Levelling</h3>
+            <p>I then conducted the bed leveling protocol from the assignment. I ran the paper test a few times to check and make sure it was all level. I then ran the actual square print, touching the lines to see if they’d move, and it came out perfectly on the first try! I couldn’t knock the lines off and they were visible lines without any squishing.</p>
+            <p><img src="images/as3/bl1.jpg" width="400"></p>
+            <p><img src="images/as3/bl2.jpg" width="400"></p>
+            <p><img src="images/as3/bl3.jpg" width="400"></p>
+            <h3>Test Prints</h3>
+            <h4>Cubes</h4>
+            <p>I built my 3 CM cube in Rhino, exported the STL, and opened it in Cura. In Cura I selected my printer, checked the size of the cube, and set the print to low quality. I then hit “slice”, saved the file to my chip, and uploaded it to the printer.</p>
+            <p><img src="images/as3/testprint1.png" width="400"></p>
+            <p><img src="images/as3/testprint2.png" width="400"></p>
+            <p><img src="images/as3/testprint3.jpg" width="400"></p>
+            <h4>Problem Solving</h4>
+            <p>The cube was working perfectly, but the filament that came with the machine broke and ruined the print. The filament actually broke off in the tube, so I had to problem solve unclogging it. I preheated PLA, used the metal needle to make sure the nozzle wasn’t clogged, and used a fresh piece of filament to push the broken part through. I then ran another test print to make sure all of the broken filament had been pushed out. After that, I pulled the entire piece of filament out and replaced it with the better quality ProtoPlant filament to continue my prints. Then I ran another test print to make sure the filament was fed correctly. </p>
+            <p>Here is the first failed cube.</p>
+            <p><img src="images/as3/testprint4.jpg" width="400"></p>
+            <p>After that, it was smooth sailing. I’m going to include pictures of the cubes and not the Cura, since it was just the same file with different quality settings. I did a new bed level test print between each cube to make sure that everything was working. Before the super quality cube print, I noticed the filament was coming out differently, so I used the metal needle to make sure there weren’t any clogs, and it went back to normal. </p> 
+            
+            <p><strong>3CM (30 MM) Low Quality Cube</strong> 
+                <br> Time: 52 Minutes 
+                <br> Actual Size: 29.98 mm W x 29.85 mm H</p>
+                <p><img src="images/as3/testprint5.jpg" width="400"></p>
+            
+            <p><strong>3CM (30MM) Standard Quality Cube</strong> 
+                <br> Time: 1 Hour 9 Minutes 
+                <br> Actual Size: 30.04 mm W x 29.89 mm H</p>
+                <p><img src="images/as3/testprint6.jpg" width="400"></p>
+            
+             <p><strong>3CM (30MM) Super Quality Cube</strong> 
+                <br> Time: 2 Hours 5 Minutes
+                <br> Actual Size: 29.8 mm W x 30.1 mm H</p>
+                <p><img src="images/as3/testprint7.jpg" width="400"></p>
+            
+            <p>I am a fan of standard quality because it is just a bit better than low quality but takes half the time of super.</p>
+            <p><img src="images/as3/testprint8.jpg" width="400"></p>
+            <p>I am also happy with the size that they came out. The biggest difference was only .2 MM different than the file. I spent a long time trying to assemble the printer right and make sure my bed leveling was accurate, it paid off!  It was at this point I realized that my cubes did not have to be 3 CM, and could be 2 CM. So, I scaled the STL file down to 2 CM in Cura and made the top and bottom layers concentric.</p>
+            
+            <p><strong>2CM (20 MM) Standard Quality Cube, Concentric Top/Bottom</strong> 
+                <br> Time: 28 minutes
+                <br> Actual Size: 19.87 mm W x 20.04 mm H</p>
+                <p>This one had the biggest difference in size from the file, with .23 mm difference on the width, but that is still under 1mm, so that’s great.</p>
+                <p><img src="images/as3/testprint9.jpg" width="400"></p>
+                <p><img src="images/as3/testprint10.jpg" width="400"></p>
+            
+            <h4>Tubes</h4>
+            <p>I built both tubes in Rhino. One with a .4 mm wall thickness (single extrusion) and one with .8 mm wall thickness (double extrusion), since the my printer nozzle is .4mm.</p>
+            <p><img src="images/as3/testprint11.png" width="400"></p>
+            <p>I exported each individually as STLs, brought them into Cura, and individually adjusted their settings to make sure that there was a single extrusion (.4) and a double extrusion (.8) with a randomized z alignment. I then sliced them and printed them together to see if I could see the difference in how they were printing, and I could!</p>
+            <p><img src="images/as3/testprint12.png" width="400"></p>
+            <p><img src="images/as3/testprint13.png" width="400"></p>
+            
+            <p><strong>3CM (30MM) Low Quality Tubes, Single & Double Extrusion</strong> 
+                <br> Time: 27 minutes total
+                <br> Single Extrusion Actual Size: 29.92 mm W x 30.01 mm H
+                <br> Double Extrusion Actual Size: 29.93 mm W x 30.00 mm H</p>
+                <p><img src="images/as3/testprint14.jpg" width="400"></p>
+                <p><img src="images/as3/testprint15.jpg" width="400"></p>
+                <p>They printed out great! Here are side-by-sides so you can see the difference in the wall thickness and the z alignment. I prefer the single line z alignment.</p>
+                <p><img src="images/as3/testprint16.jpg" width="400"></p>
+                <p><img src="images/as3/testprint17.jpg" width="400"></p>
+            
+            <h4>Cylinders</h4>
+            <p>By the time I got to the cylinders, I was feeling pretty comfortable with the process, so I printed 3 cylinders together. I created one 3CM cylinder in Rhino, exported one STL at .1 tolerance and one at .001 tolerance. I pulled both into Cura and placed them. I pulled in another copy of the .1 STL, rotated it, and added support in the individual settings in Cura as well. I printed all three of these together. You can really tell the difference between .1 and .001. I didn’t even notice how the other pieces weren’t a smooth cylinder until I printed the .001 tolerance cylinder.</p>
+            <p><img src="images/as3/testprint18.jpg" width="400"></p>
+            <p><img src="images/as3/testprint19.jpg" width="400"></p>
+            
+            <p><strong>3CM (30MM) Low Quality Cylinders | .1 Tolerance, .001 Tolerance, and .1 Tolerance Sideways with Supports</strong> 
+                <br> Time: 2 Hours 21 minutes total
+                <br> .1 Tolerance Cylinder <b> </b>Actual Size: 29.77 W x 30.00 H
+                <p><img src="images/as3/testprint20.jpg" width="400"></p>
+                <p>.001 Tolerance Cylinder Actual Size: 29.89 W x 30.11 H</p>
+                <p><img src="images/as3/testprint21.jpg" width="400"></p>
+                <p>.1 Tolerance Sideways Cylinder Actual Size: 29.98 W x  30.08 H</p>
+                <p><img src="images/as3/testprint22.jpg" width="400"></p>
+            
+            <p>I printed the Spiralized Outer Contour Cylinder separately because it is a change that had to be made in the general settings and cannot be done individually in Cura. This can be done under General Settings for Print > Custom > Special Modes > Spiralize.</p>
+            
+             <p><strong>3CM (30MM) Low Quality Spiralized Outer Contour Cylinder</strong> 
+                <br> Time: 21 Minutes
+                <br> 29.82 mm W x 30.14 mm H
+                <p><img src="images/as3/testprint23.jpg" width="400"></p>
+                <p><img src="images/as3/testprint24.jpg" width="400"></p>
+            <p>Overall, all my test prints printed within .4 mm of the size they were supposed to be, I didn’t run into any issues beyond the first cube, and I was very excited to design the nested object after doing these.</p>
+            
+            <h3>Nested Object</h3>
+            <p>I saw a little Lego skeleton on my desk and thought, “I should do something for Halloween”. So I created a 3D model in Rhino of a skull, with two rings around it of different heights. I also made the eyes nested pieces to challenge my printer a bit.  I threw that in Cura, sliced it, and printed it! </p>
+            <p><img src="images/as3/nestedobj1.png" width="400"></p>
+            <p>Here's how it printed.</p>
+            <p><img src="images/as3/nestedobj2.jpg" width="400"></p>
+            <p>And the final piece!</p>
+            <p><img src="images/as3/nestedobj3.jpg" width="400"></p>
+            <p><img src="images/as3/nestedobj4.jpg" width="400"></p>
+            
+            <p>I also built a more complex nested object I haven't tried to print yet. It took me hours and many times of starting over, but I wanted to try and learn Rhino a bit more.</p>
+            <p><img src="images/as3/nestedobj5.png" width="400"></p>
+            
+            <h3>Thank yous!</h3>
+            <p>Vanessa & Everyone in the Discord!</p>
+            
+            <h3>Source Files</h3>
+            <p><strong>3CM Cube</strong></p>
+            <a href="files/as3/Cubes/3cmcube.3dm">3 CM Cube Rhino file</a><br>
+            <a href="files/as3/Cubes/3cmcube.stl">3 CM Cube STL</a><br>
+            <a href="files/as3/Cubes/3cmcube_lowqual.3mf">3 CM Cube Low Quality Cura File</a><br>
+            <a href="files/as3/Cubes/3cmcube_lowqual.gcode">3 CM Cube Low Quality GCode</a><br>
+            <a href="files/as3/Cubes/3cmcube_stdqual.3mf">3 CM Cube Standard Quality Cura File</a><br>
+            <a href="files/as3/Cubes/3cmcube_stdqual.gcode">3 CM Cube Standard Quality GCode</a><br>
+            <a href="files/as3/Cubes/3cmcube_superqual.3mf">3 CM Cube Super Quality Cura File</a><br>
+            <a href="files/as3/Cubes/3cmcube_superqual.gcode">3 CM Cube Super Quality GCode</a><br>
+
+            <p><strong>2CM Cube</strong></p>
+            <a href="files/as3/Cubes/2cmcube_stndqual_concentrictopbottom.3mf">2 CM Cube Standard Quality with Concentric Top/Bottom Layers Cura File</a><br> 
+            <a href="files/as3/Cubes/2cmcube_stndqual_concentrictopbottom.gcode">2 CM Cube Standard Quality with Concentric Top/Bottom Layers GCode</a><br>
+
+            <p><strong>3CM Tubes</strong></p>
+            <a href="files/as3/Tubes/Tubes.3dm">3 CM Tubes Rhino file</a><br>
+            <a href="files/as3/Tubes/3CM_singlewall_tube.stl">3 CM Tube Single Extrusion STL</a><br>
+            <a href="files/as3/Tubes/3CM_doublewall_tube.stl">3 CM Tube Double Extrusion STL</a><br>
+            <a href="files/as3/Tubes/tubes.3mf">3 CM Tubes Cura File</a><br> 
+            <a href="files/as3/Tubes/tubes.gcode">3 CM Tubes GCode</a><br>
+
+            <p><strong>3CM Cylinders</strong></p>
+            <a href="files/as3/Cylinder/Cylinder.3dm">3CM Cylinder Rhino File</a><br>
+            <a href="files/as3/Cylinder/Cylinder_.1tolerance.stl">3CM Cylinder .1 Tolerance STL</a><br>
+            <a href="files/as3/Cylinder/Cylinder_.001tolerance.stl">3CM Cylinder .001 Tolerance STL</a><br>
+            <a href="files/as3/Cylinder/cylinders.3mf">3CM Cylinders Cura File</a><br>
+            <a href="files/as3/Cylinder/cylinders.gcode">3CM Cylinders GCode</a><br>
+            <a href="files/as3/Cylinder/cylinder_spiralizedcontour.3mf">3CM Spiralized Outer Contour Cura File</a><br>
+            <a href="files/as3/Cylinder/cylinder_spiralizedcontour.gcode">3CM Spiralized Outer Contour GCode</a><br>
+
+            <p><strong>Nested Object</strong></p>
+            <a href="files/as3/NestedObj/Spooky/spooky.3dm">Nested Object Rhino file</a><br>
+            <a href="files/as3/NestedObj/Spooky/spooky.stl">Nested Object STL</a><br>
+            <a href="files/as3/NestedObj/Spooky/spooky.3mf">Nested Object Standard Quality Cura File</a><br> 
+            <a href="files/as3/NestedObj/Spooky/spooky.gcode">Nested Object Standard Quality GCode</a><br>
+            <a href="files/as3/NestedObj/NestedObj/nestedobject.3dm">Complex Nested Object Rhino file</a><br>
+
+        </div>
+        
+    </body>
+</html>
